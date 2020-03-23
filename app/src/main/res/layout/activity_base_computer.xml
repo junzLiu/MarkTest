@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/view_title" />
+<androidx.core.widget.NestedScrollView
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1">
+    <TextView
+        android:id="@+id/screenTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"/>
+</androidx.core.widget.NestedScrollView>
+
+
+    <LinearLayout
+        android:id="@+id/controllerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/b_1_1"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/b_1_2"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/b_1_3"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/controllerLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/b_2_1"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/b_2_2"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/b_2_3"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+</LinearLayout>
